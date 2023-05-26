@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.gambar {
+  margin-top: 110px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.gambar img {
+  width: 200px;
+}
+
+
+.table-container{
+overflow-x:auto !important;
+padding:5px 10px;
+max-width: 1500px;
+margin:100px auto;
+}
+
+
+.compare {
+    overflow:scroll;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    min-width: 100%;
+}
+
+.compare td, .compare th {
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+.compare tr:nth-child(even){background-color: #f2f2f2; min-width:100%;}
+
+.compare tr:hover {background-color: #ddd; min-width:100%;}
+
+.compare th:first-child {text-align:left;}
+
+.compare .middle {
+  text-align:center;
+}
+
+.compare tr:last-child {text-align:center; background-color:white;}
+
+
+
+.compare th {    
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align:center;
+    background-color: #123456;
+    color: #f0f1f2;
+}
+
+
+.compare button.blue{
+font-weight:bold;
+color:white;
+background:#f8b195;
+padding:10px;
+text-align:center;
+margin:3px auto;
+border:transparent;
+border-radius:6px;
+}
+
+.compare button.blue a:link{color:white}
+.compare button.blue a:hover{color:white}
+
+
+
+.compare button.buy-now{
+font-weight:bold;
+font-size:14px;
+color:white;
+background:#b5a5bd;
+padding:5px 10px;
+text-align:center;
+margin:3px 10px;
+border:transparent;
+border-radius:3px;
+box-shadow:2px 2px 2px #666;
+}
+
+.compare button.buy-now a:link{color:white; text-decoration:none;}
+.compare button.buy-now a:hover{color:white; text-decoration:none;}

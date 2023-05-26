@@ -1,0 +1,15 @@
+.brand {
+  background-color: #6c5b7b;
+  padding: 60px;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.brand h1 {
+  font-size: 40px;
+  color: white;
+}
+
+.brand-img img{
+  padding: 20px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+  </head>
+  <body>
+    <div class="center">
+      <h1>Login</h1>
+      <form id ="login" method="post">
+        <div class="txt_field">
+          <input type="text" name="username" id="username" required>
+          <span></span>
+          <label>Username</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" name="password" id="password" required>
+          <span></span>
+          <label>Password</label>
+        </div>
+        <div class="pass">Lupa Password?</div>
+        <input type="button" value="Login" onclick="check(this.form)">
+        <div class="signup_link">
+          Belum punya akun? <a href="./daftar.html">Signup</a>
+        </div>
+      </form>
+    </div>
+
+    <script type="text/javascript">
+    function check(form)/*function to check userid & password*/
+    {
+     /*the following code checkes whether the entered userid and password are matching*/
+     if(form.username.value == "admin" && form.password.value == "123456")
+      {
+        window.open('akun.html')/*opens the target page while Id & password matches*/
+      }
+     else
+     {
+       alert("Salah Username atau Password")/*displays error message*/
+      }
+    }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+.detail-brand {
+  margin-top: 100px;
+}
+
+.atas {
+  display: grid;
+  grid-template-columns: 27% auto;
+}
+
+.atas .atas-kiri {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.atas .best-seller {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  padding: 20px;
+  margin-right: 20px;
+  background-color: #6c5b7b;
+  gap: 25px;
+  border-radius: .5rem;
+}
+
+.atas .best-seller .box {
+  text-align: center;
+  padding: 15px;
+  background-color: white;
+}
+
+.atas .best-seller .box1 h3{
+  text-align: center;
+  padding: 8px;
+  background-color: white;
+  margin-top: 100px;
+  border-radius: .5rem;
+}
+
+.atas .best-seller .box h3 {
+  background-color: #c06c84;
+  color: white;
+  padding: 8px;
+  margin: 10px;
+  border-radius: .5rem;
+}
+
+.atas .best-seller img {
+  max-width: 188px;
+  width: 100%;
+  text-align: center;
+  left: 10px;
+}
+
+.bawah {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  margin-top: 50px;
+  text-align: center;
+  padding: 10px;
+}
+
+.bawah .box img {
+  width: 230px;
+  height: 300px;
+}
+
+@media (max-width: 1080px) {
+  img {
+    width: 100%;
+    text-align: center;
+  }
+@media (max-width: 768px) {
+  .atas {
+    display: inline;
+    padding: 10px;
+    text-align: justify;
+  }
+
+  .atas-kiri p{
+    padding: 10px;
+  }
+
+  .atas .best-seller {
+    padding: 10px;
+    margin-left: 15px;
+  }
+
+  .atas .best-seller .box1 h3{
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .best-seller .box1 h3{
+    padding-top: -10px;
+  }
+}
